@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>การประกาศ Selectors</title>
+    <style>
+        /* Tag*/
+        h1{
+            color: red;
+            font-size: 30px;
+        }
+
+        /* class */
+        .title{
+            color: yellowgreen;
+            font-size: 35px;
+        }
+
+        /* id */
+        #title{
+            color: pink;
+        }
+
+        /* Union Selector */
+        #title, .title, p{
+            font-style: italic;
+        }
+
+        p.message{
+            font-weight: bolder;
+            color: blue;
+        }
+
+        h1.message{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Adisak</h1>
+    <h1 class="title">HTML5</h1>
+    <h1 id="title">CSS</h1>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p class="message">Lorem ipsum dolor sit amet.</p>
+    <h1 class="message">Lorem, ipsum.</h1>
+</body>
+</html>

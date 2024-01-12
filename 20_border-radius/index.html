@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border-Radius</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+        }
+
+        .box-1{
+            background-color: yellow;
+            border-color:red;
+            border-style: solid;
+            border-radius: 10px
+        }
+
+        .box-2{
+            background-color: yellowgreen;
+            border-style: solid;
+            border-color: purple;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 45px;
+            border-bottom-left-radius: 40px;
+            border-bottom-right-radius: 50px;
+        }
+
+        .box-3{
+            background-color: pink;
+            border-style: dashed black;
+            border-radius: 20px 20px 20px 15px;
+        }
+
+        .box-4{
+            background-color: yellow;
+            border: solid;
+            border-radius: 10px;
+            border-color: red;
+        }
+
+        img{
+            width: 100px;
+            height: 100px;
+            border: 10px solid black;
+            border-radius: 60px;
+            border-top-color: red;
+            border-bottom-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="box-1"></div>
+    <hr>
+    <div class="box-2"></div>
+    <hr>
+    <div class="box-3"></div>
+    <hr>
+    <div class="box-4"></div>
+    <hr>
+    <img src="https://cdn.pixabay.com/photo/2023/08/27/14/34/buildings-8217275_1280.jpg">
+</body>
+</html>

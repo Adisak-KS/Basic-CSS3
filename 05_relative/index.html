@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative</title>
+    <style>
+      html{
+        font-size: 10px;
+      }
+
+      div.em{
+        font-size: 2em;
+      }
+
+      div.rem{
+        font-size: 2rem
+      }
+
+    </style>
+</head>
+
+<body>
+    <!-- ========== Start em ========== -->
+    <h1>em</h1>
+    <div class="em">
+        test1 (10 X 2 = 20px)
+        <div class="em">
+            test2 (20 X 2 = 40px)
+            <div class="em">
+                test3 (40 X 2 = 80px)
+                <div class="em">
+                    test4 (80 X 2 = 160px)
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- ========== End em ========== -->
+
+    <!-- ========== Start rem ========== -->
+    <div class="rem">CSS3</div>
+    <div class="rem">CSS3</div>
+    <div class="rem">CSS3</div>
+    <div class="rem">CSS3</div>
+    <!-- ========== End rem ========== -->
+</body>
+
+</html>

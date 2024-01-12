@@ -1,0 +1,76 @@
+body{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 100px
+}
+
+h1{
+    display: none;
+}
+
+/* Mobile Device */
+@media (max-width: 480px) {
+    body{
+        background-color: red;
+    }
+
+    #mobile h1{
+        display: block;
+    }
+}
+
+/* iPads */
+@media (min-width: 481px) and (max-width: 768px) {
+    body{
+        background-color: blue
+    }
+
+    #ipads h1{
+        display: block;
+    }
+}
+
+/* Laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    body{
+        background-color: pink ;
+    }
+
+    #laptops h1{
+        display: block;
+    }
+}
+
+/* Desktops */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    body{
+        background-color: green;
+    }
+
+    #desktops h1{
+        display: block;
+    }
+}
+
+/* Tv */
+@media (min-width: 1201px){
+    body{
+        background-color: black;
+    }
+
+    #tv h1{
+        display: block;
+    }
+}
+
+/* Landscape แสดงผลในหน้าจอแนวนอน */
+@media (max-height: 500px) {
+    body{
+        background-color: orange;
+    }
+    
+    #landscape h1{
+        display: block;
+    }
+}

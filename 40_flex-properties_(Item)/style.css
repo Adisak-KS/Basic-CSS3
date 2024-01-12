@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+.flex-container{
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+
+.item {
+    background-color: orange;
+    border: 1px solid black;
+    width: 200px;
+    /* margin:  10px;
+    padding: 10px; */
+    text-align: center;
+    border-radius: 10px;
+    flex: 1px;
+    
+}
+
+.item-1{
+    /* หดตัวเมื่อเทียบกับ item อื่น ๆ */
+    /* flex-shrink: 2; */
+    /* ทำให้ item ที่อยู่แถวเดียวกันมีขนาดเท่ากัน */
+    flex: 2;
+}
+ .item-2{
+    /* flex-shrink: 3; */
+    /* ขยายตัว 2 เท่า เทียบกับ Item รอบข้าง */
+    /* flex-grow: 2; */
+} 
+
